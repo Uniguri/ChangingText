@@ -12,15 +12,14 @@
 }
 #text{
     margin: 0 0 0 0;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 100;
-    padding-bottom: 100;
     font-family: 'DotGothic16', sans-serif;
     font-size: 150px;
     color: white;
-    position: inherit;
     visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 body{
     margin: 0 0 0 0;
