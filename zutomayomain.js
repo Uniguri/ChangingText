@@ -3,6 +3,9 @@ let list = [
 ]
 let count = 0;
 
+function init(){
+    document.getElementById('text').innerText = list[0];
+}
 function resize() {
     const text = document.getElementById('text');
     const shadows = document.getElementsByClassName('shadows');
