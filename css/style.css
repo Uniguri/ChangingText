@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
-.container{
+#container{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     width: 100%;
@@ -10,16 +10,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#text{
+.text{
     margin: 0 0 0 0;
     font-family: 'DotGothic16', sans-serif;
-    font-size: 150px;
-    color: white;
+    color: rgb(255, 255, 255);
     visibility: visible;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 100%;
+
+    font-size: 100px;
 }
 body{
     margin: 0 0 0 0;
