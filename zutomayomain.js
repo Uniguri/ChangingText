@@ -1,5 +1,5 @@
 let list = [
-    "Zutomayo", "Is", "Good", "Made", "By", "JCH", "Zutomayo", "Is", "Omnipotent", "God"
+    "Hello", "My", "Name", "Is", "XXX"
 ]
 let count = 0;
 
